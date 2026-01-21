@@ -56,6 +56,33 @@ export const ProjectsSection = () => {
       repo: "https://github.com/dzackyahmad-codes/hukum-pedia",
       tech: ["Project Management", "AI Chatbot"],
     },
+    {
+      title: "Image Classification",
+      role: "Machine Learning Developer",
+      description:
+        "Personal project comparing custom CNN and pre-trained models for image classification using an end-to-end workflow.",
+      image: "/projects/image-classification.png",
+      repo: "https://github.com/dzackyahmad-codes/Image-classification",
+      tech: ["Python", "CNN", "Transfer Learning", "Computer Vision"],
+    },
+    {
+      title: "AI Content Script Generator",
+      role: "Full Stack Developer",
+      description:
+        "AI-based content script generator handling frontend, backend logic, API workflow, and structured user input processing.",
+      image: "/projects/ai-content.png",
+      repo: "https://github.com/dzackyahmad-codes/ai-content-maker",
+      tech: ["Next.js", "API", "AI Integration", "Full Stack"],
+    },
+    {
+      title: "Google Play Sentiment Analysis",
+      role: "Full Stack Developer",
+      description:
+        "End-to-end sentiment analysis platform using IndoBERTweet with automated Google Play scraping and manual review input.",
+      image: "/projects/google-play-sentiment.png",
+      repo: "https://github.com/dzackyahmad-codes/google-play-store-sentiment-analysis",
+      tech: ["Python", "NLP", "IndoBERTweet", "Sentiment Analysis"],
+    },
   ];
 
   return (
